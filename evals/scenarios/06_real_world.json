@@ -11,9 +11,9 @@
         "start": {"dateTime": "2026-02-23T08:00:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-23T14:30:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NWxmMjM4NnJmNmpvbnNrNTA3YXRzMjM0NTQgamFjb2IuZS5tZWFjaGFtQG0",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true}
       },
       {
         "id": "71ln7ollipvs6umjjgvnpid0ui",
@@ -21,9 +21,9 @@
         "start": {"dateTime": "2026-02-23T16:30:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-23T17:45:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NzFsbjdvbGxpcHZzNnVtampndm5waWQwdWkgamFjb2IuZS5tZWFjaGFtQG0",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true}
       },
       {
         "id": "7mr36dt5vrnnirje5nsj5flrsi",
@@ -31,9 +31,9 @@
         "start": {"dateTime": "2026-02-24T10:00:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-24T14:00:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=N21yMzZkdDV2cm5uaXJqZTVuc2o1Zmxyc2kgamFjb2IuZS5tZWFjaGFtQG0",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true}
       },
       {
         "id": "4obpln1c67gpom79a66ei3duh1",
@@ -41,9 +41,9 @@
         "start": {"dateTime": "2026-02-24T17:00:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-24T19:30:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NG9icGxuMWM2N2dwb203OWE2NmVpM2R1aDEgamFjb2IuZS5tZWFjaGFtQG0",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true}
       },
       {
         "id": "16cc2ksj8nj352b06pas5top54",
@@ -51,9 +51,9 @@
         "start": {"dateTime": "2026-02-25T08:00:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-25T17:30:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MTZjYzJrc2o4bmozNTJiMDZwYXM1dG9wNTQgamFjb2IuZS5tZWFjaGFtQG0",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true}
       },
       {
         "id": "19dfiqr4npkcep2s3a21b05rpi",
@@ -61,9 +61,9 @@
         "start": {"dateTime": "2026-02-26T08:00:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-26T14:00:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MTlkZmlxcjRucGtjZXAyczNhMjFiMDVycGkgamFjb2IuZS5tZWFjaGFtQG0",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true}
       },
       {
         "id": "30h3735vtfvguhr20ubk27to3q",
@@ -71,9 +71,9 @@
         "start": {"dateTime": "2026-02-26T16:30:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-26T17:45:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MzBoMzczNXZ0ZnZndWhyMjB1YmsyN3RvM3EgamFjb2IuZS5tZWFjaGFtQG0",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true}
       },
       {
         "id": "1dj81s1l6b66lqjfot2p2qfkpm",
@@ -81,38 +81,38 @@
         "start": {"dateTime": "2026-02-27T08:15:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-27T13:45:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWRqODFzMWw2YjY2bHFqZm90MnAycWZrcG0gamFjb2IuZS5tZWFjaGFtQG0",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true}
       },
       {
         "id": "d0jqrat9j8kvave8l2qdpjoac8_20260227T221500Z",
         "summary": "Singing",
-        "description": "Vocal lesson with Dan Gardner\n\nJoin Zoom Meeting:\nhttps://us02web.zoom.us/j/85206815028?pwd=GYnAszwIk8vFnIs4fXbJMR3AWHC1pt.1\n\nMeeting ID: 852 0681 5028\nPasscode: 503454",
+        "description": "A vocal lesson with your teacher! Zoom Meeting at\nhttps://us02web.zoom.us/j/234324324Fake\n\nMeeting ID: DEA DBE EEF\nPasscode: 5555555",
         "location": "https://us02web.zoom.us/j/85206815028?pwd=GYnAszwIk8vFnIs4fXbJMR3AWHC1pt.1",
         "start": {"dateTime": "2026-02-27T15:15:00-07:00", "timeZone": "America/Denver"},
         "end": {"dateTime": "2026-02-27T16:00:00-07:00", "timeZone": "America/Denver"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=ZDBqcXJhdDlqOGt2YXZlOGwycWRwam9hYzhfMjAyNjAyMjdUMjIxNTAwWiBqYWNvYi5lLm1lYWNoYW1AbQ",
-        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
-        "creator": {"email": "jemonjam.ai.assistant@gmail.com"},
+        "htmlLink": "https://www.notrealdata",
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true},
         "recurringEventId": "d0jqrat9j8kvave8l2qdpjoac8"
       },
       {
         "id": "304k10lig37l2jm4cu6ib94oph_20260301T230000Z",
         "summary": "Jacob<>Matt",
-        "description": "Agenda:<br><ol><li>Life updates if any</li><li>Progress update on Jacob taking over the world</li><li>Matt's challenges at PW</li></ol>",
+        "description": "Agenda:<br><ol><li>Life updates if any</li><li>Progress update on Jacob taking over the world</li><li>Others</li></ol>",
         "start": {"dateTime": "2026-03-01T16:00:00-07:00", "timeZone": "America/Los_Angeles"},
         "end": {"dateTime": "2026-03-01T16:30:00-07:00", "timeZone": "America/Los_Angeles"},
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MzA0azEwbGlnMzdsMmptNGN1NmliOTRvcGhfMjAyNjAzMDFUMjMwMDAwWiBqYWNvYi5lLm1lYWNoYW1AbQ",
-        "hangoutLink": "https://meet.google.com/umr-dszb-nnr",
+        "htmlLink": "https://www.google.com/calendar/event?eid=FAKEFAKEFAKE",
+        "hangoutLink": "https://meet.google.com/dead-beef",
         "attendees": [
-          {"email": "msloan7@gmail.com", "responseStatus": "accepted"},
-          {"email": "jacob.e.meacham@gmail.com", "responseStatus": "accepted"}
+          {"email": "my.email@gmail.com", "responseStatus": "accepted"},
+          {"email": "my.email@gmail.com", "responseStatus": "accepted"}
         ],
-        "organizer": {"email": "msloan7@gmail.com"},
-        "creator": {"email": "msloan7@gmail.com"},
+        "organizer": {"email": "my.email@gmail.com", "self": true},
+        "creator": {"email": "my.email@gmail.com", "self": true},
         "recurringEventId": "304k10lig37l2jm4cu6ib94oph"
       }
     ]
