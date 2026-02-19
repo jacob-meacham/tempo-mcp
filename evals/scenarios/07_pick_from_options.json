@@ -1,0 +1,133 @@
+{
+  "name": "Pick from options",
+  "description": "User must choose from specific class/appointment time slots while avoiding Personal Training days, calendar conflicts, and maintaining 15-min travel buffers. Tests option-selection reasoning with timezone normalization across work (UTC) and personal (Denver) calendars. Traps include PT-day options, buffer-violating options, and cross-activity time conflicts.",
+  "difficulty": "hard",
+  "existing_events_ical": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Tempo Eval//EN\nBEGIN:VEVENT\nSUMMARY:Morning Standup\nDTSTART:20260223T160000Z\nDTEND:20260223T161500Z\nRRULE:FREQ=DAILY;COUNT=7\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Sprint Planning\nDTSTART:20260223T170000Z\nDTEND:20260223T183000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Product Sync\nDTSTART:20260224T180000Z\nDTEND:20260224T190000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Architecture Review\nDTSTART:20260224T200000Z\nDTEND:20260224T213000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:All Hands\nDTSTART:20260225T170000Z\nDTEND:20260225T180000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:1:1 with Manager\nDTSTART:20260225T190000Z\nDTEND:20260225T193000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Customer Demo\nDTSTART:20260225T210000Z\nDTEND:20260225T220000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Design Review\nDTSTART:20260226T180000Z\nDTEND:20260226T193000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Tech Debt Triage\nDTSTART:20260226T200000Z\nDTEND:20260226T210000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Interview Panel\nDTSTART:20260227T170000Z\nDTEND:20260227T183000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Sprint Retro\nDTSTART:20260227T200000Z\nDTEND:20260227T210000Z\nEND:VEVENT\nBEGIN:VEVENT\nSUMMARY:Cross-team Sync\nDTSTART:20260301T170000Z\nDTEND:20260301T180000Z\nEND:VEVENT\nEND:VCALENDAR",
+  "existing_events_gcal_json": {
+    "events": [
+      {
+        "id": "5lf2386rf6jonsk507ats23454",
+        "summary": "BUSY",
+        "start": {"dateTime": "2026-02-23T08:00:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-23T14:30:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NWxmMjM4NnJmNmpvbnNrNTA3YXRzMjM0NTQgamFjb2IuZS5tZWFjaGFtQG0",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+      },
+      {
+        "id": "71ln7ollipvs6umjjgvnpid0ui",
+        "summary": "Personal Training",
+        "start": {"dateTime": "2026-02-23T16:30:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-23T17:45:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NzFsbjdvbGxpcHZzNnVtampndm5waWQwdWkgamFjb2IuZS5tZWFjaGFtQG0",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+      },
+      {
+        "id": "7mr36dt5vrnnirje5nsj5flrsi",
+        "summary": "BUSY",
+        "start": {"dateTime": "2026-02-24T10:00:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-24T14:00:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=N21yMzZkdDV2cm5uaXJqZTVuc2o1Zmxyc2kgamFjb2IuZS5tZWFjaGFtQG0",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+      },
+      {
+        "id": "4obpln1c67gpom79a66ei3duh1",
+        "summary": "Making Dinner",
+        "start": {"dateTime": "2026-02-24T17:00:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-24T19:30:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NG9icGxuMWM2N2dwb203OWE2NmVpM2R1aDEgamFjb2IuZS5tZWFjaGFtQG0",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+      },
+      {
+        "id": "16cc2ksj8nj352b06pas5top54",
+        "summary": "BUSY",
+        "start": {"dateTime": "2026-02-25T08:00:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-25T17:30:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MTZjYzJrc2o4bmozNTJiMDZwYXM1dG9wNTQgamFjb2IuZS5tZWFjaGFtQG0",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+      },
+      {
+        "id": "19dfiqr4npkcep2s3a21b05rpi",
+        "summary": "BUSY",
+        "start": {"dateTime": "2026-02-26T08:00:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-26T14:00:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MTlkZmlxcjRucGtjZXAyczNhMjFiMDVycGkgamFjb2IuZS5tZWFjaGFtQG0",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+      },
+      {
+        "id": "30h3735vtfvguhr20ubk27to3q",
+        "summary": "Personal Training",
+        "start": {"dateTime": "2026-02-26T16:30:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-26T17:45:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MzBoMzczNXZ0ZnZndWhyMjB1YmsyN3RvM3EgamFjb2IuZS5tZWFjaGFtQG0",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+      },
+      {
+        "id": "1dj81s1l6b66lqjfot2p2qfkpm",
+        "summary": "BUSY",
+        "start": {"dateTime": "2026-02-27T08:15:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-27T13:45:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWRqODFzMWw2YjY2bHFqZm90MnAycWZrcG0gamFjb2IuZS5tZWFjaGFtQG0",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jacob.e.meacham@gmail.com", "self": true}
+      },
+      {
+        "id": "d0jqrat9j8kvave8l2qdpjoac8_20260227T221500Z",
+        "summary": "Singing",
+        "description": "Vocal lesson with Dan Gardner\n\nJoin Zoom Meeting:\nhttps://us02web.zoom.us/j/85206815028?pwd=GYnAszwIk8vFnIs4fXbJMR3AWHC1pt.1\n\nMeeting ID: 852 0681 5028\nPasscode: 503454",
+        "location": "https://us02web.zoom.us/j/85206815028?pwd=GYnAszwIk8vFnIs4fXbJMR3AWHC1pt.1",
+        "start": {"dateTime": "2026-02-27T15:15:00-07:00", "timeZone": "America/Denver"},
+        "end": {"dateTime": "2026-02-27T16:00:00-07:00", "timeZone": "America/Denver"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=ZDBqcXJhdDlqOGt2YXZlOGwycWRwam9hYzhfMjAyNjAyMjdUMjIxNTAwWiBqYWNvYi5lLm1lYWNoYW1AbQ",
+        "organizer": {"email": "jacob.e.meacham@gmail.com", "self": true},
+        "creator": {"email": "jemonjam.ai.assistant@gmail.com"},
+        "recurringEventId": "d0jqrat9j8kvave8l2qdpjoac8"
+      },
+      {
+        "id": "304k10lig37l2jm4cu6ib94oph_20260301T230000Z",
+        "summary": "Jacob<>Matt",
+        "description": "Agenda:<br><ol><li>Life updates if any</li><li>Progress update on Jacob taking over the world</li><li>Matt's challenges at PW</li></ol>",
+        "start": {"dateTime": "2026-03-01T16:00:00-07:00", "timeZone": "America/Los_Angeles"},
+        "end": {"dateTime": "2026-03-01T16:30:00-07:00", "timeZone": "America/Los_Angeles"},
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MzA0azEwbGlnMzdsMmptNGN1NmliOTRvcGhfMjAyNjAzMDFUMjMwMDAwWiBqYWNvYi5lLm1lYWNoYW1AbQ",
+        "hangoutLink": "https://meet.google.com/umr-dszb-nnr",
+        "attendees": [
+          {"email": "msloan7@gmail.com", "responseStatus": "accepted"},
+          {"email": "jacob.e.meacham@gmail.com", "responseStatus": "accepted"}
+        ],
+        "organizer": {"email": "msloan7@gmail.com"},
+        "creator": {"email": "msloan7@gmail.com"},
+        "recurringEventId": "304k10lig37l2jm4cu6ib94oph"
+      }
+    ]
+  },
+  "task_prompt": "I want to take a yoga class, a cycling class, and get a massage next week (Feb 23 - March 1, 2026). I don't want any of these activities on days I have personal training. Please ensure at least 15 minutes of travel time on each side.\n\nI have a work calendar (UTC times) and a personal calendar (America/Denver timezone, UTC-7). Some personal events are marked as 'BUSY' with no details.\n\nHere are my options:\n\nYoga classes (1 hour):\n- Option A: Mon Feb 23, 6:00-7:00 AM Mountain Time\n- Option B: Tue Feb 24, 6:00-7:00 AM Mountain Time\n- Option C: Thu Feb 26, 6:00-7:00 AM Mountain Time\n- Option D: Fri Feb 27, 2:15-3:15 PM Mountain Time\n- Option E: Sat Feb 28, 9:00-10:00 AM Mountain Time\n- Option F: Sat Feb 28, 11:00 AM-12:00 PM Mountain Time\n\nCycling classes (45 min):\n- Option A: Mon Feb 23, 3:00-3:45 PM Mountain Time\n- Option B: Tue Feb 24, 3:15-4:00 PM Mountain Time\n- Option C: Thu Feb 26, 3:00-3:45 PM Mountain Time\n- Option D: Fri Feb 27, 4:15-5:00 PM Mountain Time\n- Option E: Sat Feb 28, 8:00-8:45 AM Mountain Time\n- Option F: Sun Mar 1, 9:00-9:45 AM Mountain Time\n\nMassage appointments (90 min):\n- Option A: Tue Feb 24, 2:30-4:00 PM Mountain Time\n- Option B: Tue Feb 24, 3:00-4:30 PM Mountain Time\n- Option C: Fri Feb 27, 4:15-5:45 PM Mountain Time\n- Option D: Sat Feb 28, 1:00-2:30 PM Mountain Time\n- Option E: Sat Feb 28, 3:00-4:30 PM Mountain Time\n- Option F: Sun Mar 1, 11:15 AM-12:45 PM Mountain Time\n\nPlease pick one of each that works with my schedule.",
+  "constraints": {
+    "required_block_count": 3,
+    "min_duration_minutes": 45,
+    "max_duration_minutes": 90,
+    "date_range_start": "2026-02-23T00:00:00Z",
+    "date_range_end": "2026-03-02T06:00:00Z",
+    "no_conflicts": true,
+    "custom_rules": [
+      {"type": "min_buffer_minutes", "value": 15, "description": "15-min travel time buffer between activities and other events"},
+      {"type": "blocked_dates", "dates": ["2026-02-23", "2026-02-26"], "description": "No activities on Personal Training days (Mon Feb 23, Thu Feb 26)"}
+    ]
+  }
+}

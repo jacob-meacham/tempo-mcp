@@ -1,0 +1,11 @@
+agent-instructions
+
+# Added by cargo
+/target
+
+# Python evals
+evals/.venv/
+evals/results/
+__pycache__/
+*.pyc
+.env

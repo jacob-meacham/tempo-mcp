@@ -1,0 +1,10 @@
+[project]
+name = "tempo-evals"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "mcp>=1.0.0",
+    "python-dateutil>=2.9.0",
+    "python-dotenv>=1.0.0",
+]
